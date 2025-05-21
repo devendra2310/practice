@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Hi please enter your name"
-READ name
+read name
 echo " Thankyou for entring your name $name"
 
 echo " enter your age $name"
