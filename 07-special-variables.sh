@@ -1,7 +1,6 @@
 #!/bin/bash
 
 
-names=("nani" "dev" "devendra")
 echo "all variables passed to this sscript : $@ "
 echo "number of variables passed : $#"
 echo "script name : $0 "
