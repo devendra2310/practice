@@ -18,9 +18,9 @@ else
     if [ $? -eq 0 ]
     then
         echo " mysql installed "
+        exit 1
     else 
         echo " mysql not installed "
-        exit 1
     fi
 fi
 
