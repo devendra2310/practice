@@ -5,5 +5,5 @@ if [ $num -lt 23 ]
 then 
     echo "given $num is less than 23 "
 else 
-    ehco "given number is greater than 23"
+    echo "given number is greater than 23"
 fi
