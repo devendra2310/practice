@@ -21,7 +21,7 @@ else
     echo -e " you're running this script with root access" |tee -a $LOG_FILE
 fi
 
-VALIDATE{
+VALIDATE(){
 if [ $1 -eq 0 ]
 then 
     echo -e " installng $2 is ......$g SUCCESS $n " | tee -a $LOG_FILE
